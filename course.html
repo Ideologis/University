@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Courses</title>
+</head>
+
+<body>
+    <section class="courses">
+        <nav>
+            <a href="index.html"><img src="/icons8-monzo-192.png" alt=""></a>
+            <div class="nav_links" id="nav_links">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="/index.html">HOME</a></li>
+                    <li><a href="/about.html">ABOUT</a></li>
+                    <li><a href="/course.html">COURSE</a></li>
+                    <li><a href="/blog.html">BLOG</a></li>
+                    <li><a href="/contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div >
+            <h1>Our courses</h1>
+        </div>
+    </section>
+   <!-- Our courses -->
+   <section class="course">
+    <h1> Courses we offer</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas possimus, expedita, commodi deleniti ipsam
+        mollitia eveniet voluptatem et nulla ea quasi nihil quo doloremque quae eius itaque alias voluptas.
+        Repellendus?</p>
+
+    <div class="row">
+        <div class="course-col">
+            <h3>Intermediate</h3>
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure temporibus reprehenderit
+                necessitatibus ducimus ab rem error delectus. Quidem itaque molestiae quo, illum modi quibusdam
+                aliquam ducimus earum laborum deleniti autem.
+            </p>
+        </div>
+        <div class="course-col">
+            <h3>Intermediate</h3>
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure temporibus reprehenderit
+                necessitatibus ducimus ab rem error delectus. Quidem itaque molestiae quo, illum modi quibusdam
+                aliquam ducimus earum laborum deleniti autem.
+            </p>
+        </div>
+        <div class="course-col">
+            <h3>Intermediate</h3>
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure temporibus reprehenderit
+                necessitatibus ducimus ab rem error delectus. Quidem itaque molestiae quo, illum modi quibusdam
+                aliquam ducimus earum laborum deleniti autem.
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- facilities -->
+<section class="facilities">
+    <h1>Our facilities</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, deleniti.</p>
+</section>
+<div class="row">
+    <div class="facilities-col">
+        <img src="/pexels-andres-ayrton-6551174.jpg" alt="">
+        <h3>World class equipment</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, voluptate excepturi molestias omnis
+            laboriosam amet dicta numquam distinctio non beatae?</p>
+    </div>
+    <div class="facilities-col">
+        <img src="/pexels-maria-orlova-4946389.jpg" alt="">
+        <h3>World class equipment</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, voluptate excepturi molestias omnis
+            laboriosam amet dicta numquam distinctio non beatae?</p>
+    </div>
+    <div class="facilities-col">
+        <img src="/pexels-mart-production-7089400.jpg" alt="">
+        <h3>World class equipment</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, voluptate excepturi molestias omnis
+            laboriosam amet dicta numquam distinctio non beatae?</p>
+    </div>
+</div>
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Natus hic quaerat nulla error, provident sunt nostrum similique id ipsam saepe repellat veniam itaque doloremque vitae?</p>
+        <div class="icons">
+            <i class="fa fa-facebook" aria-hidden="true"></i>
+            <i class="fa fa-facebook-official" aria-hidden="true"></i>
+            <i class="fa fa-facebook-official" aria-hidden="true"></i>
+        </div>
+        <p> Ideologist </p>
+    </section>
+    <!-- Javascript -->
+    <script>
+        var navLinks = document.getElementById("nav_links")
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px"
+        }
+    </script>
+</body>
+
+</html>

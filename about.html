@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="/icons8-monzo-192.png" alt=""></a>
+            <div class="nav_links" id="nav_links">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="/index.html">HOME</a></li>
+                    <li><a href="/about.html">ABOUT</a></li>
+                    <li><a href="/course.html">COURSE</a></li>
+                    <li><a href="/blog.html">BLOG</a></li>
+                    <li><a href="/contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div >
+            <h1>About us</h1>
+        </div>
+    </section>
+            <section class="about-us">
+                <div class="about-col">
+                    <div>
+                        <h1>We are the world Largest University</h1>
+                        <p>
+                          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos voluptates aperiam nam explicabo nostrum. Culpa explicabo alias expedita, eos ab tempora soluta commodi illum consequuntur enim a minima corrupti, temporibus eum? Ratione pariatur eligendi nisi minus sed ad a reprehenderit amet! Eius minus eveniet suscipit corrupti! Quaerat nihil harum laudantium ut asperiores architecto eum nobis exercitationem recusandae eligendi quidem voluptatibus error tempore, facilis omnis, quam natus illum rem? Dignissimos perferendis facere quos at autem! Rerum soluta ex beatae atque sunt?
+                        </p>
+                        <a href=""class = "hero_btn">EXPLORE NOW</a>
+                    </div>
+                    <div>
+                        <img src="/pexels-icsa-1708912.jpg" alt="">
+                    </div>
+                </div>
+            </section>
+
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Natus hic quaerat nulla error, provident sunt nostrum similique id ipsam saepe repellat veniam itaque doloremque vitae?</p>
+        <div class="icons">
+            <i class="fa fa-facebook" aria-hidden="true"></i>
+            <i class="fa fa-facebook-official" aria-hidden="true"></i>
+            <i class="fa fa-facebook-official" aria-hidden="true"></i>
+        </div>
+        <p> Ideologist </p>
+    </section>
+    <!-- Javascript -->
+    <script>
+        var navLinks = document.getElementById("nav_links")
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px"
+        }
+    </script>
+</body>
+
+</html>

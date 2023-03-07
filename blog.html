@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Blog</title>
+</head>
+
+<body>
+    <section class="blog-header">
+        <nav>
+            <a href="index.html"><img src="/icons8-monzo-192.png" alt=""></a>
+            <div class="nav_links" id="nav_links">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="/index.html">HOME</a></li>
+                    <li><a href="/about.html">ABOUT</a></li>
+                    <li><a href="/course.html">COURSE</a></li>
+                    <li><a href="/blog.html">BLOG</a></li>
+                    <li><a href="/contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div >
+            <h1>Our Certificates & Online Programs For 2021</h1>
+        </div>
+    </section>
+   <!-- blog page content -->
+  <section class="blog-content">
+    <div class="row">
+        <div class="blog-left">
+            <img src="/pexels-rodnae-productions-7713538.jpg" alt="">
+            <h2>Our Certificates & Online Programs For 2021</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo soluta quibusdam laudantium aperiam corporis voluptatibus rerum recusandae obcaecati harum in blanditiis, magni, similique quo unde voluptatem distinctio illo tempora cumque laboriosam sequi culpa optio delectus! Ut suscipit odio eos consequatur!</p>
+            <br>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti a, suscipit adipisci repellendus sit, ad expedita possimus culpa nemo facere cumque iusto! Vel cumque iure est amet, consequatur, provident tempore molestias deleniti sed iste perspiciatis obcaecati eligendi iusto nobis dolores!</p>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam repudiandae molestiae voluptate in aspernatur consequatur ullam assumenda perspiciatis, aperiam, maiores laborum totam omnis asperiores blanditiis aliquam commodi, corrupti mollitia aliquid?</p>
+
+            <div class="comment-box">
+                <h3>Leave a comment</h3>
+                <form class="comment-form">
+                    <input type="text" placeholder="Enter name">
+                    <input type="email" placeholder="Enter Email">
+                    <textarea  rows="10" placeholder="Your comment"></textarea>
+                    <button type = "submit" class="hero_btn red-btn">POST YOUR COMMENT</button>
+                </form>
+            </div>
+        </div>
+        <div class="blog-right">
+            <h3>Post categories</h3>
+            <div>
+                <span>Business analytics</span>
+                <span>34</span>
+            </div>
+            <div>
+                <span>Business analytics</span>
+                <span>34</span>
+            </div>
+            <div>
+                <span>Business analytics</span>
+                <span>34</span>
+            </div>
+            <div>
+                <span>Business analytics</span>
+                <span>34</span>
+            </div>
+            <div>
+                <span>Business analytics</span>
+                <span>34</span>
+            </div>
+        </div>
+    </div>
+  </section>
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Natus hic quaerat nulla error, provident sunt nostrum similique id ipsam saepe repellat veniam itaque doloremque vitae?</p>
+        <div class="icons">
+            <i class="fa fa-facebook" aria-hidden="true"></i>
+            <i class="fa fa-facebook-official" aria-hidden="true"></i>
+            <i class="fa fa-facebook-official" aria-hidden="true"></i>
+        </div>
+        <p> Ideologist </p>
+    </section>
+    <!-- Javascript -->
+    <script>
+        var navLinks = document.getElementById("nav_links")
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px"
+        }
+    </script>
+</body>
+
+</html>
